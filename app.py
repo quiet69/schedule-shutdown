@@ -26,7 +26,7 @@ def queet():
 
     
 gui = Tk()
-gui.title("Autoshutdown by quiet")
+gui.title("quiet slweep")
 gui.geometry('250x250')
 gui.configure(background = "pink");
 
@@ -50,11 +50,11 @@ sec.grid(row=2, column=1)
 
 
 b1 = Button(gui)
-b1.config(text = 'peesee slweep', command = swlweep)
+b1.config(text = 'pleez slweep owo!', command = swlweep)
 b1.grid(row=8, column=1)
 
 b2 = Button(gui)
-b2.config(text = 'no slweepy!', command = noSlweep)
+b2.config(text = 'no slweepy!!', command = noSlweep)
 b2.grid(row=9, column=1)
 
 b3 = Button(gui)
